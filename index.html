@@ -15,25 +15,25 @@
 
 <body class="container-fluid">
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#">Eddington A. Mpofu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About me </a>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="#">About me </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link fs-5" href="#">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
+                    <a class="nav-link fs-5" href="#">Contact Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
+                    <a class="nav-link fs-5 " href="#">Resume</a>
                 </li>
             </ul>
         </div>
@@ -42,13 +42,12 @@
     <!-- Hero Section -->
     <header class="container-fluid">
         <!-- <div class="col-lg-4"> -->
-        <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Welcome to My Portfolio!</h1>
-                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one
-                    in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it
-                    to your liking.</p>
-                <button class="btn btn-primary btn-lg" type="button">Example button</button>
+        <div class="p-5 mb-4 bg-warning rounded-3 hero-banner">
+          
+                  <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold text-center text-white">Welcome to My Portfolio!</h1>
+                <p class="col-md-8 fs-4 text-center text-warning">This my space to showcase my projects and skills in my Web development journey</p>
+                <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
             </div>
         </div>
         <!-- </div> -->
@@ -79,6 +78,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-primary btn-lg" type="button">Example button</button>
                          </div>
                 </div>
                 <!-- </div> -->
@@ -117,6 +117,7 @@
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
+                                    <button class="btn btn-primary btn-lg" type="button">View Project</button>
                             </div>
                         </div>
                     </div>
@@ -127,13 +128,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./images/700X300.png" class="img-fluid rounded-start" alt="...">
+                            <img src="./images/700X300.png" class="img-fluid rounded-start" alt="place holder image">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-title">Church Manager</h5>
+                                <p class="card-text">This is a church management system used to manage membership of  a church. <br>
+                                The tecnologies used are bootstrap, HTML, CSS and JavaScript</p>
+                                    <button class="btn btn-primary btn-lg disabled" type="button">View Project</button>
                             </div>
                         </div>
                     </div>
@@ -144,13 +146,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./images/700X300.png"" class=" img-fluid rounded-start" alt="...">
+                            <img src="./images/700X300.png" class=" img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
+                                    <button class="btn btn-primary btn-lg" type="button">View Project</button>
                             </div>
                         </div>
                     </div>
@@ -161,13 +164,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./images/700X300.png"" class=" img-fluid rounded-start" alt="...">
+                            <img src="./images/700X300.png" class=" img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
+                                    <button class="btn btn-primary btn-lg" type="button">View Project</button>
                             </div>
                         </div>
                     </div>
@@ -181,7 +185,7 @@
     <!--ABOUT ME-->
     <section id="about-me-section">
         <div class="col-lg-12">
-            <div class="card text-bg-dark">
+            <div class="card text-bg-dark overlay-img">
                 <img src="./images/02-run-buddy.jpg" class="card-img" alt="...">
                 
                     <div class="card-img-overlay ">
