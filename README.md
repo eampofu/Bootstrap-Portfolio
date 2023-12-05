@@ -24,9 +24,11 @@ this website showcase's the following:
 you can view the landing page and contact details on :https://eampofu.github.io/bootstrap-portfolio/
 
 ## Screen Shots 
+![Alt text](image-1.png)
 
-
+![Alt text](image-3.png)
+![Alt text](image-4.png)
 # Landing Page
-
+![Alt text](image.png)
 
 
